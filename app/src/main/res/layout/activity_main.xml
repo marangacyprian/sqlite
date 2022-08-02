@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/cty"
+    tools:context=".MainActivity">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black"
+        android:layout_margin="20dp"
+        android:hint="input name"
+        android:id="@+id/edit2">
+
+    </EditText>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:layout_margin="20dp"
+        android:hint="enter age"
+        android:textColorHint="@color/black"
+        android:textColor="@color/black"
+
+
+        android:id="@+id/edit1">
+
+    </EditText>
+
+    <Button
+        android:id="@+id/printname"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20sp"
+        android:background="@color/black"
+        android:text="print name"
+        android:textColor="@color/white"
+        android:textSize="20sp">
+
+    </Button>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22sp"
+            android:layout_weight="1"
+            android:hint="name"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="22sp">
+
+        </TextView>
+
+        <TextView
+            android:id="@+id/txt_age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="22sp"
+            android:layout_weight="1"
+            android:hint="age"
+            android:padding="10sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="22sp">
+
+        </TextView>
+
+    </LinearLayout>
+
+</LinearLayout>
